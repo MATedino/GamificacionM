@@ -1,0 +1,75 @@
+/* Estilos generales para el cuerpo y el HTML */
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+/* Estilos para las imágenes de fondo */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgimg-1 {
+  background-image: url("/imagen/imagencasa.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("/imagen/imagencasa2.jpg");
+  min-height: 400px;
+}
+
+/* Estilos para las leyendas */
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: rgb(240, 235, 235);
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+/* Estilos para los encabezados */
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+/* Estilos para las secciones de contenido */
+.content-section {
+  color: #777;
+  background-color: white;
+  text-align: center;
+  padding: 50px 80px;
+  text-align: justify;
+}
+
+.content-section.bg-primary {
+  background-color: #3474b4;
+  color: #ddd;
+  padding: 40px 80px;
+}
+
+/* Desactivar el desplazamiento parallax para tablets y teléfonos */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
