@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Vollkorn+SC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css');
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css');
+
+/* Agrega aquí cualquier otro estilo personalizado */
+
 /* Estilos generales para el cuerpo y el HTML */
 body, html {
   height: 100%;
@@ -72,4 +80,95 @@ h3 {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
   }
+}
+
+/* Estilos personalizados para contacto.html */
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar-brand {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.main_ofrecemos {
+  padding: 20px;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.datos {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control, .form-select {
+  border-radius: 0.25rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer_logo img {
+  width: 50px;
+}
+
+.footer_data {
+  margin-top: 10px;
+}
+
+.footer_data div {
+  margin-bottom: 5px;
+}
+
+.footer_iconos {
+  margin-top: 10px;
+}
+
+.boton-red-social {
+  font-size: 1.5rem;
+  color: #007bff;
+  margin: 0 10px;
+}
+
+.error {
+  color: red;
+  font-size: 0.875rem;
 }
