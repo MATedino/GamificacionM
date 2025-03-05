@@ -172,3 +172,68 @@ h3 {
   color: red;
   font-size: 0.875rem;
 }
+
+/* Estilos responsivos */
+@media (max-width: 1200px) {
+  .content-section {
+    padding: 40px 60px;
+  }
+}
+
+@media (max-width: 992px) {
+  .content-section {
+    padding: 30px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-section {
+    padding: 20px 30px;
+  }
+
+  .navbar-brand {
+    font-size: 1.2rem;
+  }
+
+  .card-title {
+    font-size: 1rem;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+  }
+
+  .footer_logo img {
+    width: 40px;
+  }
+
+  .boton-red-social {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .content-section {
+    padding: 10px 20px;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 0.9rem;
+  }
+
+  .card-text {
+    font-size: 0.8rem;
+  }
+
+  .footer_logo img {
+    width: 30px;
+  }
+
+  .boton-red-social {
+    font-size: 1rem;
+  }
+}
